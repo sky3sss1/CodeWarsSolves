@@ -1,5 +1,6 @@
 ﻿using CodeWars.SevenQ;
+using CodeWars.SixQ;
 
-var x = DescendingOrder11.DescendingOrder(321241231);
+var x = Narcissistic11.Narcissistic(123);
 Console.WriteLine(x);
 Console.ReadLine();
