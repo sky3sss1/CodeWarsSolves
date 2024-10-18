@@ -1,5 +1,5 @@
 ﻿using CodeWars.SevenQ;
 
-var x = ListFilterer.GetIntegersFromList(new List<object>(){ 1, "a", "b", 0, 15 });
+var x = DescendingOrder11.DescendingOrder(321241231);
 Console.WriteLine(x);
 Console.ReadLine();
