@@ -1,6 +1,3 @@
-﻿using CodeWars.SevenQ;
-using CodeWars.SixQ;
+﻿using CodeWars;
 
-var x = Narcissistic11.Narcissistic(123);
-Console.WriteLine(x);
 Console.ReadLine();
