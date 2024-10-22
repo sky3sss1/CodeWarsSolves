@@ -19,4 +19,19 @@ class Kata
     
     return queues.Max();
   }
+  public static string AlphabetPosition(string text)
+  {
+    List<string> alphabet = new List<string> {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
+      "t", "u", "v", "w", "x", "y", "z"};
+
+    var result = "";
+    foreach (var letter in text)
+    {
+      if (alphabet.Contains(letter.ToString().ToLower()))
+      {
+        result += (alphabet.IndexOf(letter.ToString().ToLower()) + 1) + " ";
+      }
+    }
+    return result.Trim();
+  }
 }
